@@ -1,0 +1,105 @@
+# Xcode
+#
+# gitignore contributors: remember to update the following line if you add languages or schemes
+# that have Xcode build files/directories, be sure to add them here:
+# https://github.com/github/gitignore/blob/main/Global/Xcode.gitignore
+
+## Xcode 8 and later
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+!*.xcworkspace/contents.xcworkspacedata
+/**/.xcode.env
+/**/.xcode.env.local
+
+## Xcode build files
+build/
+DerivedData/
+
+## Xcode settings (both user and project)
+*.pbxuser
+*.perspective
+*.perspectivev3
+*.xcworkspace/*
+!*.xcworkspace/contents.xcworkspacedata
+xcuserdata/
+*.xccheckout
+*.moved-aside
+
+## Xcode 7 and earlier build products should be cleaned
+!.gitkeep
+
+## Obj-C/Swift specific
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+## Swift specific
+.swiftpm/
+/*.build/
+/Packages/
+Package.resolved
+.build/
+
+## CocoaPods
+Pods/
+Podfile.lock
+.pods/
+
+## Carthage
+Carthage/Build/
+
+## Accio dependency management
+Dependencies/
+.accio/
+
+## fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+## Code Injection
+iOSInjectionProject/
+
+## Xcode Patch
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+!*.xcodeproj/xcuserdata/
+!*.xcworkspace/contents.xcworkspacedata
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+*.swp
+*~.nib
+
+# IDE
+.idea/
+.vscode/
+*.swiftpm
+*.playground
+
+# Temporary files
+*.tmp
+*.temp
+*~
+*.bak
+*.swp
+*~.nib
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Project specific
+/ReminderApp/.DS_Store
+*.xcarchive
